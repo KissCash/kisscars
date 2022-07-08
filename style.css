@@ -1,0 +1,664 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#000d1a;
+}
+
+.list ul {
+	display: inline-flex;
+	list-style: none;
+	padding-left: 20rem;
+	padding-top: 30px;
+}
+.list{
+	text-decoration: none;
+}
+.list li{
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	padding-left: 7rem;
+
+}
+
+.navbar{
+	display:flex;
+	justify-content: flex-start;
+	padding-left: 70px;
+	color: white;
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	padding-top: 20px;
+
+}
+.form{
+	color: black;
+}
+.main-form{
+	padding-left: 20rem;
+	padding-top: 30px;
+}
+
+.navbar{
+	margin-top: -10px;
+	background-image: url(cars/peter-broomfield.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.form fa-solid{
+	color: blue;
+}
+.logo h2 span{
+	color:#3899fa;
+
+}
+.list ul li a:hover{
+	color: 	#66ccff;
+	text-decoration: none;
+}
+
+.list ul a{
+	color: white;
+}
+.badge{
+	border-style: solid;
+	background-color: black;
+	position: absolute;
+	top: 30rem;
+	left: 7rem;
+	padding: 50px 50px ;
+	line-height:50px
+
+}
+.divide{
+	display: block;
+}
+.option a:hover{
+	text-decoration: none;
+	color: #66ccff;
+}
+.btn-one:hover {
+    color: #333;
+    background-color: #66ccff;
+    border-color: #3491a3;
+}
+.thumb{
+	margin-top: 60px;
+	background-color:#033363; 
+}
+.slider{
+	padding-right: 100px;
+	background-color: #033363;
+	color: white;
+	padding-bottom:20px ;
+	padding-top: 40px;
+	font-size: 30px;
+}
+.select1{
+	background-color: #000d1a;
+	padding-left: 20px;
+}
+.footer{
+	text-align: center;
+	color: #bfbfbf;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.user fa-solid{
+	color: white ;
+}
+.slider p{
+	padding-left: 10px;
+}
+.foot-footer{
+	background-color:  #e6f2ff;
+	opacity: 0.8;
+}
+.foot-footer h2{
+	text-align: center;
+	padding-top: 100px;
+}
+.foot-footer h6{
+	text-align: center;
+	padding-bottom: 80px;
+}
+.foot-footer p{
+	text-align: center;
+}
+.foot-footer a{
+	padding-left: 150px;
+}
+
+.foot-footer .fa-solid{
+	padding-left: 200px;
+	font-size: 40px;
+}
+
+.foot-footer .fa-regular{
+	padding-left: 200px;
+	font-size: 40px;
+}
+.foot-footer h3{
+	text-align: center;
+}
+.footer-6{
+	padding-left: 300px;
+}
+.footer-7{
+	padding-right: 300px;
+}
+
+/*The Login page*/
+.jumb{
+	position: absolute;
+	left: 25rem;
+	top: 150px;
+	text-align: center;
+}
+
+
+.small p{
+	font-size: 15px;
+	line-height: 40px;
+}
+
+.jumb{
+	background-color: #e6f2ff;
+}
+
+.jumb h4 {
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 50px;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #00004d;
+}
+.jumb form{
+	padding-bottom: 20px;
+}
+.jumb input {
+	padding-right: 200px;
+}
+.jumb button:hover {
+	
+	background-color: #66ccff;
+}
+.jumb button{
+	background-color:	#0698f9;
+	border-radius: 5px;
+	border-color: white;
+	padding: 10px 30px;
+
+}
+.jumb a{
+	text-decoration: none;
+	color: black;
+}
+.butt button{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 10px 40px;
+	border-color: white;
+	margin-bottom: 20px;
+}
+/*
+The about us page*/
+.navbar1{
+	display:flex;
+	justify-content: flex-start;
+	padding-left: 70px;
+	color: white;
+	padding-top: 20px;
+
+}
+.navbar1{
+	background-image: url(cars/pexels-mike-b-120049.jpg);
+	margin-top: -10px;
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+
+}
+.navbar1 h2{
+	font-weight: bold;
+}
+.tag{
+	text-align: center;
+	margin-top: 50px;
+	color:  #e6f2ff;
+}
+.arrange span{
+	padding-left: 50px;
+	color:black ;
+	font-size: 30px;
+}
+.arrange{
+
+	background-color:#e6f2ff ;
+	padding-top: 30px;
+	outline-style: solid;
+	opacity: 0.8;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+.arrange h5{
+	font-weight: bold;
+}
+.experience{
+	margin-top: 60px;
+	background-color: #e6f2ff;
+	font-weight: bold;
+	opacity: 0.8;
+}
+.expert {
+	padding-top: 80px;
+	padding-left: 30px;
+}
+.expert h3{
+	font-weight: bold;
+}
+.vid video {
+    height: 40vh !important;
+    width: 100%;
+}
+.shop {
+	text-align: center;
+	margin-top: 40px;
+	background-color:#ebfafa;
+	opacity: 0.8;
+	font-weight: bold;
+}
+
+.shop h3{
+	font-weight: bold;
+} 
+.adjust {
+	text-align: center;
+	color: #e6f2ff;
+	opacity: 0.8;
+}
+
+.adjust span{
+	padding-left: 120px;
+	font-size: 50px;
+	color:  #4db8ff;;
+
+}
+.adjust h4{
+	padding-left: 100px;
+}
+
+.analyze{
+	margin-top: 30px;
+}
+
+.foot1{
+	margin-top: 120px;
+	padding-left: 40px;
+	background-color:#e6f2ff ;
+	font-weight: normal;
+	padding-top: 20px;
+	opacity: 0.8;
+
+}
+.foot1 h4{
+	font-weight: bold;
+}
+.foot2{
+	padding-left: 150px;
+	padding-top: 20px;
+	font-weight: normal;
+	padding-bottom: 40px;
+}
+.foot2 input{
+	padding-right: 100px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+	font-weight: normal;
+}
+.foot2 button{
+	
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #262626;
+	color: white;
+}
+.foot2 button:hover{
+	background-color: black;
+}
+.social{
+	padding-top: 50px;
+	border-style: solid;
+	border-bottom: black;
+	border-left: black;
+	border-right: black;
+	border-color:  #bfbfbf;
+
+}
+
+.social span{
+	font-size: 20px;
+	padding-left: 20px;
+	
+}
+.picss{
+	display: inline-flex;
+	padding-top: 60px;
+}
+.picss1 img{
+	height: 10vh;
+	width: 200px;
+
+}
+.picss2 img{
+	height: 8vh;
+	width: 200px;
+	padding-left: 20px;
+	position: absolute;
+	bottom: 11px;
+	left: 200px;
+}
+.about-footer{
+	text-align: center;
+	background-color:#e6f2ff;
+	font-weight: normal;
+	padding-top: 70px;
+	padding-bottom: 10px;
+	opacity: 0.8;
+
+}
+.contact1{
+	margin-top: 150px;
+	background-color:#e6f2ff ;
+	padding-top: 40px;
+	opacity: 0.8;
+}
+.contact1 h3{
+	padding-left: 40px;
+	font-weight: bold;
+}
+.contact3 h5{
+	font-weight: bold;
+	padding-top: 25px;
+}
+.contact2{
+	padding-top: 50px;
+	background-color:#e6f2ff ;
+	padding-bottom: 40px;
+	opacity: 0.8;
+}
+.contact2 h3{
+	padding-left: 40px;
+	font-weight: bold;
+}
+.row1{
+	background-color: white;
+}
+.row1 h3{
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+.navbar5{
+	display:flex;
+	justify-content: flex-start;
+	padding-left: 70px;
+	color: white;
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	padding-top: 20px;
+	background-color:#0f1f3d;
+	padding-bottom: 20px;
+}
+.row1 img{
+	height: 60vh;
+	width: 80rem;
+	padding-left: 30px;
+	margin-left: 130px;
+}
+.delivery{
+	padding-left: 50px;
+	font-size: 25px;
+	padding-top: 50px;
+}
+.delivery h2{
+	font-weight: bold;
+}
+.row2{
+	background-color: white;
+	padding-top: 70px;
+	padding-left: 150px;
+	padding-right: 50px;
+}
+.row2 span{
+	color: black;
+	font-size: 30px;
+	padding-left: 60px;
+}
+.house{
+	padding-top: 60px;
+	background-color: white;
+}
+.house img{
+	height: 30hv;
+	width: 60rem;
+	margin-bottom: 30px;
+}
+.house p{
+	padding-left: 40px;
+	padding-top: 90px;
+	font-size: 25px;
+}
+.comment{
+	background-color: white;
+	padding-top: 50px;
+	padding-left: 70px;
+	padding-left: 70px;
+	font-style: italic;
+}
+.comment h4{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 30px;
+	font-size: 25px;
+}
+.comment h5{
+	font-weight: bold;
+}
+.foot-icon{
+	padding-left: 90px;
+	padding-top: 30px;
+}
+.foot-icon span{
+	font-size: 30px;
+	padding-right: 20px;
+}
+.foot-email input{
+	padding-right: 150px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.foot-email button{
+	padding-top: 12px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	color: black;
+}
+.foot-email{
+	padding-top: 40px;
+}
+.foot-image1{
+	padding-top: 30px;
+}
+.foot-image1 h3{
+	padding-left: 40px;
+}
+.footer-service{
+	background-color: hsl(202, 98%, 37%);
+	color: white;
+}
+.Service-foot{
+	background-color:hsl(202, 98%, 37%) ;
+	color: white;
+}
+.speed{
+	color: white;
+}
+.renault-page{
+	background-color: white;
+}
+.spec{
+	margin-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #e6f2ff;
+}
+.spec h6{
+	color: grey;
+}
+
+.spec h3{
+	font-weight: bold;
+}
+.update span{
+	font-weight: bold;
+}
+.update p{
+	font-size: 18px;
+}
+.update h3{
+	font-weight: bold;
+}
+.update{
+	background-color:#e6f2ff ;
+	margin-top: 70px;
+}
+.price h3{
+	font-weight: bold;
+}
+.price{
+	margin-top: 30px;
+	padding-left: 30px;
+	background-color:#e6f2ff  ;
+}
+.accessory{
+	background-color:#e6f2ff ;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-bottom: 40px;
+	color: grey;
+}
+.accessory h4{
+	font-weight: bold;
+}
+.accessory span{
+	line-height: 50px;
+
+}
+.read{
+	background-color: #e6f2ff;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.read h2{
+	padding-bottom: 35px;
+}
+.display-imgae{
+	padding-top: 30px;
+	
+}
+.display12 h2{
+	padding-bottom: 30px;
+	padding-top: 40px;
+
+}
+.displayall{
+	background-color:#e6f2ff ;
+	padding-bottom: 120px;
+	margin-bottom: 40px;
+}
+.displayall img{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*used cars*/
+.page-pic img{
+    
+    height: 60vh;
+    width: 240rem;    
+}
+.page-pic h3{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	color: 	#c70505;
+}
+.page-pic span {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.range-head h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: hsl(202, 98%, 37%);
+	margin-top: 60px;
+	color: white;
+}
+.range-text {
+	padding-top: 90px;
+}
+.range-text h3{
+	font-weight: bold;
+}
+.range-text p{
+	font-size: 20px;
+}
+.making{
+	padding-top: 40px;
+	
+}
+.making h3{
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+.making h4{
+	font-weight: bold;
+}
+.making h3{
+	font-weight: bold;
+}
+.all-text h3{
+	font-weight: bold;
+}
+
+.all-text h5{
+	font-weight: bold;
+}
+.all-text h4{
+	font-weight: bold;
+}
+.all-text{
+	padding-bottom: 70px;
+}
+.new-foot h3{
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+ .new-foot{
+ 	padding-bottom: 70px;
+ }
